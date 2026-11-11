@@ -1,0 +1,101 @@
+{
+  "version": "0.2",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "61ca8b49363aaea5072496d1aa46b176300f3fcac617ef94f800d611855fd481"
+    },
+    {
+      "path": "RIGHTS.md",
+      "sha256": "8ff116eb79a472a9f04b1fb5943c6e272eef29a7e273714bec30fc494e8e45e1"
+    },
+    {
+      "path": "configs/CR-R1.cfg",
+      "sha256": "2fcd500125a171a9024c6ac2722a1d5280ef911380a6bae663ab2710f51ad7b5"
+    },
+    {
+      "path": "configs/CR-R2.cfg",
+      "sha256": "b6a34c58e35ffdf8320a8901fdde90344adfbe9476970449a76b7608d9686e2d"
+    },
+    {
+      "path": "configs/LAN-A.cfg",
+      "sha256": "c2c7c41adb68a005918ccf5d52001bff02f5ff8ab712979d3d1bc831be2406ba"
+    },
+    {
+      "path": "configs/LAN-B.cfg",
+      "sha256": "3a8ef49f75072ddb4256d6d29b39691b5391df72f3945d816e57f997e9758331"
+    },
+    {
+      "path": "docs/CML-SCREENSHOT.md",
+      "sha256": "bfdd991810325498601564ef7f8f90e62b95160ea48be671ed31287374ea4364"
+    },
+    {
+      "path": "docs/PROOF.md",
+      "sha256": "8ed79953513fdc0a381b7205380cfc2fbff2667efb1dabfbfed9087ac11bacad"
+    },
+    {
+      "path": "docs/SECURITY.md",
+      "sha256": "6df841371d22e0d2444ec4ef9a2ae902579cdf8d988fc782d1e10ba238806178"
+    },
+    {
+      "path": "docs/VERIFY.md",
+      "sha256": "17056154685b33dddbcab5020531e2e5703471b2b70b32c5e0ff5348f64ed247"
+    },
+    {
+      "path": "docs/cml-topology-2026-11-11.jpg",
+      "sha256": "486a7ed1df4c2a0a7289b828f16825a4ca0bd2aa85335439c7dfc443f6972105"
+    },
+    {
+      "path": "docs/topology.svg",
+      "sha256": "f78ed94a492ef147a7790c4e1d360450a5fcd5fc8caf9265ff02feddb1986fec"
+    },
+    {
+      "path": "evidence/historical-proof.json",
+      "sha256": "753f33c19f597911a986db0c6e51d0d085ea54175f09570a4077ae6679fa1e85"
+    },
+    {
+      "path": "evidence/lan-a-to-lan-b.txt",
+      "sha256": "ab6967df8ecd380b4ff89da278f86940283f0cec62ac39f80344c5c22b18472e"
+    },
+    {
+      "path": "evidence/lan-b-to-lan-a.txt",
+      "sha256": "8c7ebb6fe735f81f764f0f297ee2b70d0241c6e65e01ee734e00c0619b67c6b0"
+    },
+    {
+      "path": "evidence/r1-after-traffic.txt",
+      "sha256": "dcaa065333c313b0d9f6388a6a11406324d4a226a23b1c630b825cfd3c131101"
+    },
+    {
+      "path": "evidence/r1-before-traffic.txt",
+      "sha256": "65743403820fa9523b834244d7565065624e3d1cb2570704cd239eddb183e2b2"
+    },
+    {
+      "path": "evidence/r1-ike.txt",
+      "sha256": "d0508fab1ec590e583687a720f2234db522c443b75455a4cda4d43f124dc2d44"
+    },
+    {
+      "path": "evidence/r2-after-traffic.txt",
+      "sha256": "fd9f8fa11707f784a0a4f28b67703bae2113b35014c7e0f3fdbe28f4b7627828"
+    },
+    {
+      "path": "evidence/r2-before-traffic.txt",
+      "sha256": "5eb7cb321609b26d8e42407d6224291c296ec1fdac2f1110ef7cfa150f8a0e00"
+    },
+    {
+      "path": "evidence/r2-ike.txt",
+      "sha256": "02897f3508ba2aff60b220330788c693215f9a5df21cc8438a590ab250151e3e"
+    },
+    {
+      "path": "scripts/verify.py",
+      "sha256": "b8f81ae54d62a9dd5ac1d565ce650f629b2599c5e79b84573c798e5231ea846d"
+    },
+    {
+      "path": "tests/test_package.py",
+      "sha256": "8f87be665ca45d7c8afa5e4825d8df4bef5a6024c0e56d818c50cd6fc0f62412"
+    },
+    {
+      "path": "topology.yaml",
+      "sha256": "a837ade8af42da66844cfb7cfe00eabff69cdf0764573b91d40412d4b2d83bbf"
+    }
+  ]
+}

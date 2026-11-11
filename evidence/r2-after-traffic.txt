@@ -1,0 +1,9 @@
+Historical CLI excerpt, not a fresh run.
+Captured: 2026-10-19T17:14:06.930450+00:00
+Role: R2
+Command: show crypto ipsec sa
+Omitted lines are not reconstructed.
+
+    #pkts encaps: 69, #pkts encrypt: 69, #pkts digest: 69
+    #pkts decaps: 69, #pkts decrypt: 69, #pkts verify: 69
+    #send errors 0, #recv errors 0

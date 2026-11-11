@@ -1,0 +1,9 @@
+Historical CLI excerpt, not a fresh run.
+Captured: 2026-10-19T17:09:24.801763+00:00
+Role: R1
+Command: show crypto ikev2 sa detailed
+Omitted lines are not reconstructed.
+
+      Status Description: Negotiation done
+      Local id: cr-r1.example.test
+      Remote id: cr-r2.example.test

@@ -1,0 +1,8 @@
+Historical CLI excerpt, not a fresh run.
+Captured: 2026-10-19T17:12:24.900037+00:00
+Role: LAN
+Command: ping -c 5 -W 2 10.31.20.10
+Omitted lines are not reconstructed.
+
+PING 10.31.20.10 (10.31.20.10): 56 data bytes
+5 packets transmitted, 5 packets received, 0% packet loss

@@ -1,0 +1,121 @@
+{
+  "schema": "encorai-showcase-historical-proof/1",
+  "observed_date": "2026-10-19",
+  "packaged_date": "2026-11-11",
+  "origin": "Previously captured CML runtime observations",
+  "fresh_runtime_test_performed": false,
+  "repackaged_topology_import_tested": false,
+  "ike_status": {
+    "r1": "READY",
+    "r2": "READY"
+  },
+  "traffic": {
+    "lan_a_to_b": {
+      "sent": 5,
+      "received": 5,
+      "loss_percent": 0
+    },
+    "lan_b_to_a": {
+      "sent": 5,
+      "received": 5,
+      "loss_percent": 0
+    }
+  },
+  "counters": {
+    "r1": {
+      "before": {
+        "encaps": 59,
+        "decaps": 59
+      },
+      "after": {
+        "encaps": 69,
+        "decaps": 69
+      }
+    },
+    "r2": {
+      "before": {
+        "encaps": 59,
+        "decaps": 59
+      },
+      "after": {
+        "encaps": 69,
+        "decaps": 69
+      }
+    }
+  },
+  "observations": [
+    {
+      "file": "evidence/r1-ike.txt",
+      "captured_at": "2026-10-19T17:09:24.801763+00:00",
+      "command": "show crypto ikev2 sa detailed",
+      "source_text_sha256": "a20a6d53b3811244c307179465175b13a7b6941cd955efff3dae6fbe99788e9c",
+      "excerpt_sha256": "d0508fab1ec590e583687a720f2234db522c443b75455a4cda4d43f124dc2d44",
+      "method": "Selected exact source lines; explanatory header added. No values invented."
+    },
+    {
+      "file": "evidence/r2-ike.txt",
+      "captured_at": "2026-10-19T17:10:25.503329+00:00",
+      "command": "show crypto ikev2 sa detailed",
+      "source_text_sha256": "758c5502fa6453afa6d722a21a24c5d6dda563f393cb4ed257299d9acda89f3b",
+      "excerpt_sha256": "02897f3508ba2aff60b220330788c693215f9a5df21cc8438a590ab250151e3e",
+      "method": "Selected exact source lines; explanatory header added. No values invented."
+    },
+    {
+      "file": "evidence/r1-before-traffic.txt",
+      "captured_at": "2026-10-19T17:09:40.577611+00:00",
+      "command": "show crypto ipsec sa",
+      "source_text_sha256": "12c59e74f7d33c8c0edca7b0a086ba47c5f792b7e1cadc773158111b9a80b886",
+      "excerpt_sha256": "65743403820fa9523b834244d7565065624e3d1cb2570704cd239eddb183e2b2",
+      "method": "Selected exact source lines; explanatory header added. No values invented."
+    },
+    {
+      "file": "evidence/r2-before-traffic.txt",
+      "captured_at": "2026-10-19T17:10:41.172398+00:00",
+      "command": "show crypto ipsec sa",
+      "source_text_sha256": "d4ca2568ae188583d53295edb1368d6f99d45db0f8b75aefc14218aa5fee168b",
+      "excerpt_sha256": "5eb7cb321609b26d8e42407d6224291c296ec1fdac2f1110ef7cfa150f8a0e00",
+      "method": "Selected exact source lines; explanatory header added. No values invented."
+    },
+    {
+      "file": "evidence/r1-after-traffic.txt",
+      "captured_at": "2026-10-19T17:13:52.419290+00:00",
+      "command": "show crypto ipsec sa",
+      "source_text_sha256": "f0487886ab94bc0d606d9626150ee3d5052b7f3e38fac837a796e68ab793a0ea",
+      "excerpt_sha256": "dcaa065333c313b0d9f6388a6a11406324d4a226a23b1c630b825cfd3c131101",
+      "method": "Selected exact source lines; explanatory header added. No values invented."
+    },
+    {
+      "file": "evidence/r2-after-traffic.txt",
+      "captured_at": "2026-10-19T17:14:06.930450+00:00",
+      "command": "show crypto ipsec sa",
+      "source_text_sha256": "50a49a145ed5f36d88f95ca560af5f29ffba21c0886c66a184495a7ab3f0a34e",
+      "excerpt_sha256": "fd9f8fa11707f784a0a4f28b67703bae2113b35014c7e0f3fdbe28f4b7627828",
+      "method": "Selected exact source lines; explanatory header added. No values invented."
+    },
+    {
+      "file": "evidence/lan-a-to-lan-b.txt",
+      "captured_at": "2026-10-19T17:12:24.900037+00:00",
+      "command": "ping -c 5 -W 2 10.31.20.10",
+      "source_text_sha256": "23e3809fe05971de89c0ff74f8707ccfb866b639c8555d0a47f633b32664dfd4",
+      "excerpt_sha256": "ab6967df8ecd380b4ff89da278f86940283f0cec62ac39f80344c5c22b18472e",
+      "method": "Selected exact source lines; explanatory header added. No values invented."
+    },
+    {
+      "file": "evidence/lan-b-to-lan-a.txt",
+      "captured_at": "2026-10-19T17:13:36.820328+00:00",
+      "command": "ping -c 5 -W 2 10.31.10.10",
+      "source_text_sha256": "9d27ea3c6e27c7b0dbcf1ab72a585d4835a666f6ff386d70ed3c6d6dd5b49eb8",
+      "excerpt_sha256": "8c7ebb6fe735f81f764f0f297ee2b70d0241c6e65e01ee734e00c0619b67c6b0",
+      "method": "Selected exact source lines; explanatory header added. No values invented."
+    }
+  ],
+  "not_proven": [
+    "Internet or production readiness",
+    "AWS tunnel integration",
+    "Injected fault diagnosis or repair",
+    "PFS rekey behavior",
+    "Path-MTU discovery or application performance",
+    "Independent troubleshooting ability",
+    "Reproduction of this packaging on another CML installation"
+  ]
+}
